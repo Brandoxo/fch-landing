@@ -1,12 +1,14 @@
 <?php
 
-namespace App\Http\Controllers\Front;
-
+namespace App\Http\Controllers\front;
+use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 
-class frontController extends Controller{
+
+class FrontController extends Controller
+{
     public function index()
     {
-        return view("/");
+        return view("front.index.index");
     }
 }
