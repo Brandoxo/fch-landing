@@ -4,11 +4,6 @@
 
 @section('css')
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
-<style>
-    html {
-        background-color: #FDF8F4;
-    }
-    </style>
 
 @endsection
 @section('js')
@@ -60,6 +55,7 @@
     <div>
         @include("front.index.Sections.hero")
         @include("front.index.Sections.about")
-
+        @include("front.index.Sections.phrases")
+        @include("front.index.Sections.hotels")
     </div>
 @endsection
