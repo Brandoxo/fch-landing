@@ -4,7 +4,11 @@
 
 @section('css')
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
-
+<style>
+    html{
+        scroll-behavior: smooth;
+    }
+</style>
 @endsection
 @section('js')
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
@@ -57,5 +61,9 @@
         @include("front.index.Sections.about")
         @include("front.index.Sections.phrases")
         @include("front.index.Sections.hotels")
+        @include("front.index.Sections.amenities")
+        @include("front.index.Sections.restaurant")
+        @include("front.index.Sections.art")
+        @include("front.index.Sections.cards")
     </div>
 @endsection
