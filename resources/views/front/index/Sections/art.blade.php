@@ -1,7 +1,7 @@
 <article class="py-6 max-w-[1230px] mx-auto">
     <div class="flex">
         <div class="w-3/4 p-2">
-            <h2 class="italic font-bold text-center text-2xl mb-4">ARTE QUE TE LLENA</h1>
+            <h2 class="italic font-bold text-center text-2xl mb-4 text-greenblack">ARTE QUE TE LLENA</h1>
             <img class=""  src="{{ asset('assets/img/art/arte2.jpg') }}"></img>
         <div class="flex place-items-end">
             <p class="text-end text-sm text-gray">Los valores de la familia FCH, la base de nuestra hospitalidad y el respeto que le tenemos a nuestros huespedes se ve reflejado en sus paladares</p>

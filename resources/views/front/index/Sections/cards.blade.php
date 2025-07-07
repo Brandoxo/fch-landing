@@ -1,12 +1,12 @@
-<section>
+<section class="mt-1">
 
  <div class="text-center">
-        <h1 class="font-bold text-3xl">Consulta nuestros precios</h1>
+        <h1 class="font-bold text-3xl text-greenblack">CONSULTA NUESTROS PRECIOS</h1>
         <div class="w-70 h-1 bg-salmon flex m-auto mt-3 mb-3"></div>
   </div>
 
-     <article class="md:grid md:grid-cols-3 gap-14 p-2 space-y-4">
-      <div class="relative w-full max-w-sm mx-auto rounded-2xl overflow-hidden shadow-xl h-[500px]">
+     <article class="md:grid md:grid-cols-3 2xl:gap-0 gap-14 p-2 space-y-4">
+      <div class="relative w-full max-w-sm mx-auto rounded-2xl overflow-hidden shadow-aqua h-[500px]">
         <!-- Imagen de fondo -->
         <img src="{{ asset('assets/img/buy-card/tar-provi.webp') }}" alt="Hotel FCH Providencia" class="absolute inset-0 w-full h-full object-cover contrast-100">
 
@@ -70,7 +70,7 @@
         </div>
     </div>
 
-          <div class="relative w-full max-w-sm mx-auto rounded-2xl overflow-hidden shadow-xl h-[500px]">
+          <div class="relative w-full max-w-sm mx-auto rounded-2xl overflow-hidden shadow-salmon shadow-md h-[500px]">
         <!-- Imagen de fondo -->
         <img src="{{ asset('assets/img/buy-card/tar-expo.jpg') }}" alt="Hotel FCH Expo" class="absolute inset-0 w-full h-full object-cover contrast-100">
 
@@ -133,7 +133,7 @@
         </div>
     </div>
 
-          <div class="relative w-full max-w-sm mx-auto rounded-2xl overflow-hidden shadow-xl h-[500px]">
+          <div class="relative w-full max-w-sm mx-auto rounded-2xl overflow-hidden shadow-aqua shadow-md h-[500px]">
         <!-- Imagen de fondo -->
         <img src="{{ asset('assets/img/buy-card/tar-minerva.webp') }}" alt="Hotel FCH Minerva" class="absolute inset-0 w-full h-full object-cover contrast-100">
 
