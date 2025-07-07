@@ -1,4 +1,4 @@
-<section class="py-6 max-w-[1230px] mx-auto">
+<article class="py-6 max-w-[1230px] mx-auto">
     <div class="flex">
         <div class="w-3/4 p-2">
             <h2 class="italic font-bold text-center text-2xl mb-4">SABORES QUE SE EXPRESAN</h1>
@@ -14,4 +14,4 @@
         </div>
     </div>
 
-</section>
+</article>

@@ -65,5 +65,6 @@
         @include("front.index.Sections.restaurant")
         @include("front.index.Sections.art")
         @include("front.index.Sections.cards")
+        @include("front.index.Sections.reviews")
     </div>
 @endsection
