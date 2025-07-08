@@ -45,13 +45,43 @@
             },
             768: {
                 slidesPerView: 2,
-            },
+            }, 
             1024: {
                 slidesPerView: 2,
             },
         },
         spaceBetween: 30,
     });
+
+
+    const scrollHeader = document.getElementById('scrollHeader');
+    const mainHeader = document.getElementById('mainHeader');
+
+    window.addEventListener('scroll', () => {
+        if (window.scrollY > 800) {
+            scrollHeader.classList.remove('opacity-0', 'pointer-events-none');
+            scrollHeader.classList.add('opacity-100');
+        } else {
+            scrollHeader.classList.add('opacity-0', 'pointer-events-none');
+            scrollHeader.classList.remove('opacity-100');
+        }
+    });
+
+    const btn_back = document.getElementById("btn-back-to-top");
+
+function backToTop() {
+  if (document.body.scrollTop > 40 || document.documentElement.scrollTop > 40) {
+    btn_back.classList.remove("hidden");
+  } else {
+    btn_back.classList.add("hidden");
+  }
+
+  btn_back.addEventListener("click", function () {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  });
+}
+
+window.addEventListener("scroll", backToTop);
     </script>
 @endsection
 

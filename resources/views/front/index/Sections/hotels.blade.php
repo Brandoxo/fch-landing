@@ -6,7 +6,7 @@
         </div>
     </div>
 
-    <div class="w-full grid grid-cols-3 gap-4">
+    <div class="w-full grid grid-cols-1 md:grid-cols-3 gap-4">
         <!-- Artículo 1 -->
         <article class="p-2 relative">
             <div class="w-full h-64 overflow-hidden">
