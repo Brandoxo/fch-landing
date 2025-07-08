@@ -109,5 +109,6 @@ window.addEventListener("scroll", backToTop);
         @include("front.index.Sections.cards")
         @include("front.index.Sections.reviews")
         @include("front.index.Sections.visit")
+        @include("front.index.Sections.maps")
     </div>
 @endsection
