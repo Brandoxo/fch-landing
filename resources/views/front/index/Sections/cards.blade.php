@@ -1,7 +1,7 @@
 <section class="mt-1">
 
  <div class="text-center">
-        <h1 class="font-bold text-3xl text-greenblack">CONSULTA NUESTROS PRECIOS</h1>
+        <h1 class="font-bold text-3xl text-greenblack" data-aos="fade-down">CONSULTA NUESTROS PRECIOS</h1>
         <div class="w-70 h-1 bg-salmon flex m-auto mt-3 mb-3"></div>
   </div>
 
@@ -62,7 +62,7 @@
 
             <!-- Botón -->
           <div class="w-full flex justify-end">
-            <a href="#" class="inline-block bg-salmon hover:bg-pink-600 text-white text-sm font-semibold px-4 py-2 rounded shadow w-fit">
+            <a href="https://hotels.cloudbeds.com/reservation/K6bLIF" target="_blank" class="inline-block bg-salmon hover:bg-pink-600 text-white text-sm font-semibold px-4 py-2 rounded shadow w-fit">
                 Ver precios
             </a>
           </div>
@@ -126,7 +126,7 @@
 
             <!-- Botón -->
           <div class="w-full flex justify-end">
-            <a href="#" class="flex justify-end bg-salmon hover:bg-pink-600 text-white text-sm font-semibold px-4 py-2 rounded shadow w-fit">
+            <a href="https://hotels.cloudbeds.com/reservation/K6bLIF" target="_blank" class="flex justify-end bg-salmon hover:bg-pink-600 text-white text-sm font-semibold px-4 py-2 rounded shadow w-fit">
                 Ver precios
             </a>
           </div>
@@ -175,7 +175,7 @@
                 </div>
             </div>
 
-             <span class="bg-white w-full h-[1px] mb-2"></span>
+             <span class="bg-white w-full h-[1px] mb-2 hidden sm:block"></span>
 
 
             <!-- Fechas -->
@@ -188,7 +188,7 @@
 
             <!-- Botón -->
           <div class="w-full flex justify-end">
-            <a href="#" class=" flex justify-end bg-salmon hover:bg-pink-600 text-white text-sm font-semibold px-4 py-2 rounded shadow w-fit">
+            <a href="#" target="_blank" class=" flex justify-end bg-salmon hover:bg-pink-600 text-white text-sm font-semibold px-4 py-2 rounded shadow w-fit">
                 Ver precios
             </a>
           </div>

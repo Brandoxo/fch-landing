@@ -22,10 +22,13 @@
         @include('front.shared.sidebar')
 
         @include('front.shared.header')
+        @include('front.shared.headerScroll')
 
         @yield('content')
 
         @include('front.shared.footer')
+
+        @include('front.shared.buttonsFloat')
 
         @vite('resources/js/app.js')
         @yield('js')

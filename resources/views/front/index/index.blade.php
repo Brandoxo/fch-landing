@@ -59,13 +59,25 @@
 
     window.addEventListener('scroll', () => {
         if (window.scrollY > 800) {
-            scrollHeader.classList.remove('opacity-0', 'pointer-events-none');
-            scrollHeader.classList.add('opacity-100');
+            scrollHeader.classList.remove('hidden', 'pointer-events-none');
+            scrollHeader.classList.add('hidden');
         } else {
-            scrollHeader.classList.add('opacity-0', 'pointer-events-none');
-            scrollHeader.classList.remove('opacity-100');
+            scrollHeader.classList.add('hidden', 'pointer-events-none');
+            scrollHeader.classList.remove('hidden');
         }
     });
+
+    window.addEventListener('scroll', () => 
+{
+    if(window.scrollY > 300){
+        scrollHeader.classList.remove('hidden');
+        mainHeader.classList.remove('fixed');
+    } else {
+        scrollHeader.classList.add('hidden')
+                mainHeader.classList.add('fixed');
+
+    }
+});
 
     const btn_back = document.getElementById("btn-back-to-top");
 

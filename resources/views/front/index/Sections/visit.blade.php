@@ -1,7 +1,7 @@
 <div>
     <div class="p-4 px-20 lg:px-74 2xl:px-80">
         <div class="text-center">
-            <h1 class="font-bold text-3xl text-greenblack text-center">VISÍTENOS</h1>
+            <h1 class="font-bold text-3xl text-greenblack text-center" data-aos="fade-up">VISÍTENOS</h1>
             <div class="w-70 h-1 bg-aqua flex m-auto mt-3"></div>
         </div>
     </div>
@@ -35,16 +35,16 @@
 
      <div class="grid sm:grid-cols-2 items-center w-fit mx-auto sm:gap-90  p-4 ">
             <div class="text-center">
-            <h1 class="font-bold text-3xl text-greenblack text-center">ESCRÍBANOS</h1>
+            <h1 class="font-bold text-3xl text-greenblack text-center" data-aos="fade-down">ESCRÍBANOS</h1>
             <div class="2xl:w-70 h-1 bg-salmon flex m-auto mt-3"></div>
-            <a><p>info@fch-hotels.com
-                </p></a>
-                <a><p>
-                reservaciones@fch-hotels.com</p></a>
+            <a href="mailto:info@fch-hotels.com" class="text-blue-900 underline">info@fch-hotels.com</a>
+            <br>
+                <a href="mailto:reservaciones@fch-hotels.com"  class="text-blue-900 underline">
+                reservaciones@fch-hotels.com</a>
              </div>
-
+            
             <div class="text-center">
-            <h1 class="font-bold text-3xl text-greenblack text-center">LLÁMENOS</h1>
+            <h1 class="font-bold text-3xl text-greenblack text-center" data-aos="fade-down">LLÁMENOS</h1>
             <div class="2xl:w-70 h-1 bg-hielow flex m-auto mt-3"></div>
             <a><p>+ 52 (33) 3623 2000
                 </p></a>
