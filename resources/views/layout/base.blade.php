@@ -12,7 +12,7 @@
 
         @include('front.shared.meta')
 
-        <title>{{ config('app.name', 'Hotel FCH Hotels') }}</title>
+        <title>{{ config('app.name', 'Hotel FCH Hoteles') }}</title>
 
         @vite('resources/css/app.css')
         @yield('css')

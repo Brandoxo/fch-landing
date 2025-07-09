@@ -91,12 +91,16 @@
 });
 
     const btn_back = document.getElementById("btn-back-to-top");
+    const bnt_whatsapp = document.getElementById("btn-whatsapp");
 
 function backToTop() {
   if (document.body.scrollTop > 40 || document.documentElement.scrollTop > 40) {
     btn_back.classList.remove("hidden");
+    bnt_whatsapp.classList.remove("hidden");
   } else {
     btn_back.classList.add("hidden");
+    bnt_whatsapp.classList.add("hidden");
+    
   }
 
   btn_back.addEventListener("click", function () {

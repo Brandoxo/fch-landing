@@ -27,7 +27,7 @@
 <!-- Boton de whatsapp -->
   <button
   type="button"
-  class="transition duration-150 ease-in-out !fixed bottom-22 sm:bottom-26  end-5 rounded-full bg-salmon p-2 sm:p-3 font-bold uppercase leading-tight text-white shadow-md  hover:bg-salmon/80    hover:shadow-lg focus:bg-gray-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-gray-800 active:shadow-lg z-50"
+  class="hidden transition duration-150 ease-in-out !fixed bottom-22 sm:bottom-26  end-5 rounded-full bg-salmon p-2 sm:p-3 font-bold uppercase leading-tight text-white shadow-md  hover:bg-salmon/80    hover:shadow-lg focus:bg-gray-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-gray-800 active:shadow-lg z-50"
   id="btn-whatsapp"
    data-aos="fade-up"
   data-aos-duration="1000"

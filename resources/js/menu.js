@@ -13,6 +13,7 @@ function openNav(){
     document.body.classList.add('overflow-hidden');
     lateralMenu.classList.add('w-72');
     lateralMenu.classList.remove('w-0');
+    console.log("seactivo")
 
     document.addEventListener('click', handleClickOutside);
 
@@ -29,7 +30,7 @@ function closeNav(){
 
 function handleClickOutside(event) {
     // Comprobar si el clic se realizó fuera del menú lateral y si el menú está abierto
-    if (!lateralMenu.contains(event.target) && !openNavBtn.contains(event.target) && !openNavBtnMovile.contains(event.target)) {
+    if (!lateralMenu.contains(event.target) && !openNavBtn.contains(event.target) ) {
         closeNav();
     }
 }

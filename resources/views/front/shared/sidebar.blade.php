@@ -1,10 +1,10 @@
-<aside id="aside" class="overflow-hidden fixed top-0 h-screen bg-black bg-opacity-50 z-30 transition-all duration-300">
+<aside id="aside" class="overflow-hidden fixed top-0 h-screen bg-black/50 bg-opacity-50 z-50 transition-all duration-300">
     <section id="lateral-menu" class="w-0 bg-white h-screen opacity-100 shadow-inner transition-all duration-300">
         <ul>
             
             <li class="relative border-black border-opacity-30 border-b-2">
-                <div class="bg-salmon w-full h-28 inner-shadow">
-                    <img class="w-32 mx-auto" src="{{ asset('assets/img/logos/logo-ver.png') }}" alt="Logo">
+                <div class="bg-salmon w-full h-28 inner-shadow overflow-y-hidden">
+                    <img class="w-19 mx-auto" src="{{ asset('assets/img/logos/logo-ver.png') }}" alt="Logo">
                     <br>
                     <br>
                 </div>
