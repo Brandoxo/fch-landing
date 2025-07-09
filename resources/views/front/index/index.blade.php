@@ -5,8 +5,19 @@
 @section('css')
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
 <style>
+
+    *{
+        overflow-x: hidden;
+    }
+
     html{
         scroll-behavior: smooth;
+        margin: 0;
+        padding: 0;
+    }
+
+    body{
+
     }
 </style>
 @endsection

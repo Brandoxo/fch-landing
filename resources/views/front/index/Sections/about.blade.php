@@ -10,7 +10,7 @@ pensada para ti y tus distintas necesidades mientras tú te encargas de tus dist
     </div>
  </div>
 
-    <div class="grid md:grid-cols-3 place-items-center gap-4 md:gap-10 py-10 w-fit">
+    <div class="grid md:grid-cols-3 place-items-center gap-4 md:gap-10 sm:py-10 py-2 w-fit mx-auto">
         <div class="h-full">
             <img class="object-cover h-full w-auto min-w-[160px] hidden md:block " src="{{ asset('assets/img/about/pasillo.jpg') }}">
         </div>
