@@ -2,7 +2,7 @@
 data-aos-duration="1000"
 data-aos-once="false">
 
-    <div class="flex justify-between items-center px-8 md:px-20 lg:px-40 2xl:px-60 py-2 md:py-1 mx-auto z-20">
+    <div class="flex justify-between items-center px-8 md:px-20 lg:px-40 2xl:px-60 py-2 md:py-1 mx-auto z-20 hidden md:block">
             <a class="" href="{{ route('home') }}">
               <img class="h-16 hidden md:block" src="{{asset('assets/img/logos/logo.png')}}" alt="Logo Hotel FCH Hotel Navbar">
             </a>
@@ -13,15 +13,20 @@ data-aos-once="false">
                 <li><a href="#"><p>Contacto</p></li>
                 <li><a href="#"><p>EN</p></li>
             </ul>
+    </div>
+        
 
-            <div class="md:hidden block" data-open-nav id="openNavBtnMovile">
+    <div class="flex justify-between p-2">
+
+        <div class="md:hidden block " data-open-nav id="openNavBtnMovile">
             <img class="w-10" src="{{ asset('assets/icons/menu.svg') }}" alt="menu">
         </div>
-        <div class="md:hidden bg-salmon rounded-xl ml-auto">
-            <a target="_blank" href="https://wa.me/3333113958?text=Hola%20me%20gustaría%20saber%20más%20sobre%20el%20hotel" class="bg-salmon h-12 w-12 p-1 rounded-xl block">
-                <img class="w-10" src="{{ asset('assets/icons/socials/WhatsApp Inc.svg') }}" alt="menu">
+        
+        <div class="md:hidden aling-center items-center">
+            <a  href="/">
+                <img class="w-8" src="{{ asset('assets/img/logos/logoColor.png') }}" alt="menu">
             </a>
         </div>
-        </div>
+       
     </div>
 </nav>

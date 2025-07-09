@@ -5,7 +5,7 @@
         <div class="w-70 h-1 bg-salmon flex m-auto mt-3 mb-3"></div>
   </div>
 
-     <article class="md:grid md:grid-cols-3 2xl:gap-0 gap-14 p-2 space-y-4">
+     <article class="md:grid md:grid-cols-3 2xl:gap-0 gap-6 p-2 space-y-4">
       <div class="relative w-full max-w-sm mx-auto rounded-2xl overflow-hidden shadow-aqua h-[500px]">
         <!-- Imagen de fondo -->
         <img src="{{ asset('assets/img/buy-card/tar-provi.webp') }}" alt="Hotel FCH Providencia" class="absolute inset-0 w-full h-full object-cover contrast-100">

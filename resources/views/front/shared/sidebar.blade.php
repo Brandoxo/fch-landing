@@ -16,27 +16,23 @@
             </li>
 
             <li class="relative hover:bg-main-light hover:text-dark text-dark-medium border-black border-opacity-30 border-b cursor-pointer transition">
-                <a class="text-lg font-light" href="#"><p class="p-4">Habitaciones</p></a>
+                <a class="text-lg font-light" href="#"><p class="p-4">Hoteles</p></a>
             </li>
 
             <li class="relative hover:bg-main-light hover:text-dark text-dark-medium border-black border-opacity-30 border-b cursor-pointer transition">
-                <a class="text-lg font-light" href="#"><p class="p-4">Arte y Diseño</p></a>
+                <a class="text-lg font-light" href="#"><p class="p-4">Arte y diseño</p></a>
             </li>
 
             <li class="relative hover:bg-main-light hover:text-dark text-dark-medium border-black border-opacity-30 border-b cursor-pointer transition">
-                <a class="text-lg font-light" href="#"><p class="p-4">Restaurantes</p></a>
-            </li>
-
-            <li class="relative hover:bg-main-light hover:text-dark text-dark-medium border-black border-opacity-30 border-b cursor-pointer transition">
-                <a class="text-lg font-light" href="#"><p class="p-4">Servicios</p></a>
-            </li>
-
-            <li class="relative hover:bg-main-light hover:text-dark text-dark-medium border-black border-opacity-30 border-b cursor-pointer transition">
-                <a class="text-lg font-light" href="#"><p class="p-4">Visita Guadalajara</p></a>
+                <a class="text-lg font-light" href="#"><p class="p-4">Gourmet</p></a>
             </li>
 
             <li class="relative hover:bg-main-light hover:text-dark text-dark-medium border-black border-opacity-30 border-b cursor-pointer transition">
                 <a class="text-lg font-light" href="#"><p class="p-4">Contacto</p></a>
+            </li>
+
+            <li class="relative hover:bg-main-light hover:text-dark text-dark-medium border-black border-opacity-30 border-b cursor-pointer transition">
+                <a class="text-lg font-light" href="#"><p class="p-4">EN</p></a>
             </li>
         </ul>
     </section>
