@@ -20,7 +20,7 @@
             </li>
 
             <li class="relative hover:bg-main-light hover:text-dark text-dark-medium border-black border-opacity-30 border-b cursor-pointer transition hover:bg-salmon hover:text-white">
-                <a class="text-lg font-light" href="#"><p class="p-4">Arte y diseño</p></a>
+                <a class="text-lg font-light" href="/desing-and-art"><p class="p-4">Arte y diseño</p></a>
             </li>
 
             <li class="relative hover:bg-main-light hover:text-dark text-dark-medium border-black border-opacity-30 border-b cursor-pointer transition hover:bg-blue hover:text-white">

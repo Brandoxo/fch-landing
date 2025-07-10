@@ -63,41 +63,6 @@
         },
         spaceBetween: 30,
     });
-
-
-    const scrollHeader = document.getElementById('scrollHeader');
-    const mainHeader = document.getElementById('mainHeader');
-
-    window.addEventListener('scroll', () => {
-        if (window.scrollY > 800) {
-            scrollHeader.classList.remove('hidden', 'pointer-events-none');
-            scrollHeader.classList.add('hidden');
-        } else {
-            scrollHeader.classList.add('hidden', 'pointer-events-none');
-            scrollHeader.classList.remove('hidden');
-        }
-    });
-
-    window.addEventListener('scroll', () => 
-{
-    if(window.scrollY > 1000){
-        scrollHeader.classList.remove('hidden');
-    } else {
-        scrollHeader.classList.add('hidden')
-
-    }
-});
-
-    const btn_back = document.getElementById("btn-back-to-top");
-    const btn_whatsapp = document.getElementById("btn-whatsapp");
-
-function backToTop() {
-  btn_back.addEventListener("click", function () {
-    window.scrollTo({ top: 0, behavior: "smooth" });
-  });
-}
-
-window.addEventListener("scroll", backToTop);
     </script>
 @endsection
 

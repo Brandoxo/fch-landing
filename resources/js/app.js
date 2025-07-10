@@ -1,7 +1,8 @@
 import "./bootstrap";
- import "./menu";
- import AOS from "aos";
- import "aos/dist/aos.css";
+import "./menu";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import "./floatButtons";
 
 // Inicializar AOS directamente (SIN función initAOS)
 document.addEventListener("DOMContentLoaded", function () {
