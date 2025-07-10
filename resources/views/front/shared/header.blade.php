@@ -18,7 +18,7 @@
         </div>
     </div>
 </nav> --> 
-<nav class="z-20 bg-transparent top-0 left-0 w-full transition-all duration-300 fixed" id="mainHeader">
+<nav class="z-20 bg-transparent top-0 left-0 w-full transition-all duration-300 absolute" id="mainHeader">
     <div class="md:flex justify-between items-center px-8 md:px-20 lg:px-40 2xl:px-60 py-2 md:py-1 mx-auto z-20 hidden ">
             <a class="" href="{{ route('home') }}">
               <img class="h-14" src="{{asset('assets/img/logos/logo-hor.png')}}" alt="Logo Hotel FCH Hotel Navbar">
@@ -35,11 +35,11 @@
 
     <div class="flex justify-between p-2">
 
-        <div class="md:hidden block " data-open-nav id="openNavBtn">
+        <div class="md:hidden block open-nav-btn">
             <img class="w-12" src="{{ asset('assets/icons/menu.svg') }}" alt="menu">
         </div>
         
-        <div class="md:hidden aling-center items-center">
+        <div class="md:hidden align-center items-center">
             <a  href="/">
                 <img class="w-8" src="{{ asset('assets/img/logos/logoColor.png') }}" alt="menu">
             </a>

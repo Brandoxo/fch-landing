@@ -6,7 +6,8 @@
   </div>
 
      <article class="md:grid md:grid-cols-3 2xl:gap-0 gap-6 p-2 space-y-4">
-      <div class="relative w-full max-w-sm mx-auto rounded-2xl overflow-hidden shadow-aqua h-[500px]">
+      <div class="relative w-full max-w-sm mx-auto rounded-2xl overflow-hidden shadow-aqua h-[500px]"
+      data-aos="fade-right" data-aos-durat="2000">
         <!-- Imagen de fondo -->
         <img src="{{ asset('assets/img/buy-card/tar-provi.webp') }}" alt="Hotel FCH Providencia" class="absolute inset-0 w-full h-full object-cover contrast-100">
 
@@ -70,7 +71,8 @@
         </div>
     </div>
 
-          <div class="relative w-full max-w-sm mx-auto rounded-2xl overflow-hidden shadow-salmon shadow-md h-[500px]">
+          <div class="relative w-full max-w-sm mx-auto rounded-2xl overflow-hidden shadow-salmon shadow-md h-[500px]"
+          data-aos="zoom-in" data-aos-durat="2000">
         <!-- Imagen de fondo -->
         <img src="{{ asset('assets/img/buy-card/tar-expo.jpg') }}" alt="Hotel FCH Expo" class="absolute inset-0 w-full h-full object-cover contrast-100">
 
@@ -133,7 +135,8 @@
         </div>
     </div>
 
-          <div class="relative w-full max-w-sm mx-auto rounded-2xl overflow-hidden shadow-aqua shadow-md h-[500px]">
+          <div class="relative w-full max-w-sm mx-auto rounded-2xl overflow-hidden shadow-aqua shadow-md h-[500px]"
+          data-aos="fade-left" data-aos-durat="2000">
         <!-- Imagen de fondo -->
         <img src="{{ asset('assets/img/buy-card/tar-minerva.webp') }}" alt="Hotel FCH Minerva" class="absolute inset-0 w-full h-full object-cover contrast-100">
 

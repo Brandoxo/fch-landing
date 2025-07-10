@@ -1,8 +1,8 @@
 <section>
 
  <div class="p-4 px-20 lg:px-74 2xl:px-80 py-10">
-    <div class="text-center">
-        <h1 class="font-bold text-greenblack text-3xl 2xl:text-5xl"  data-aos="fade-down">FCH HOTELES</h1>
+    <div class="text-center ">
+        <h1 class="font-bold text-greenblack text-3xl 2xl:text-5xl overflow-hidden"  data-aos="fade-down">FCH HOTELES</h1>
         <div class="w-70 h-1 bg-hielow flex m-auto mt-3 mb-3"></div>
         <p class="text-base font-light 2xl:text-xl"  data-aos="fade-up">Reinventamos el concepto del “Hotel Boutique” para entregarte una estancia placentera y siempre a tu medida.
 Sin importar el motivo de tu viaje, en nuestro <strong>Adults Only</strong> creamos una experiencia de hospedaje especialmente

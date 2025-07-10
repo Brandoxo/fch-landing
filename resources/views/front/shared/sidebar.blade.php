@@ -11,27 +11,27 @@
                 <a href="javascript:void(0)" class="absolute top-0 right-0   focus:bg-red-500 text-white float-right w-14 h-14 leading-tight text-[2.5rem] text-center transition-all duration-150 rounded-xl rounded-shadow" id="closeNavBtn">&times;</a>
             </li>
 
-            <li class="relative hover:bg-main-light hover:text-dark text-dark-medium border-black border-opacity-30 border-b cursor-pointer transition">
+            <li class="relative hover:bg-main-light hover:text-dark text-dark-medium border-black border-opacity-30 border-b cursor-pointer transition hover:bg-hielow hover:text-white">
                 <a class="text-lg font-light" href="{{route('home')}}"><p class="p-4">Inicio</p></a>
             </li>
 
-            <li class="relative hover:bg-main-light hover:text-dark text-dark-medium border-black border-opacity-30 border-b cursor-pointer transition">
+            <li class="relative hover:bg-main-light hover:text-dark text-dark-medium border-black border-opacity-30 border-b cursor-pointer transition hover:bg-aqua hover:text-white">
                 <a class="text-lg font-light" href="#"><p class="p-4">Hoteles</p></a>
             </li>
 
-            <li class="relative hover:bg-main-light hover:text-dark text-dark-medium border-black border-opacity-30 border-b cursor-pointer transition">
+            <li class="relative hover:bg-main-light hover:text-dark text-dark-medium border-black border-opacity-30 border-b cursor-pointer transition hover:bg-salmon hover:text-white">
                 <a class="text-lg font-light" href="#"><p class="p-4">Arte y diseño</p></a>
             </li>
 
-            <li class="relative hover:bg-main-light hover:text-dark text-dark-medium border-black border-opacity-30 border-b cursor-pointer transition">
+            <li class="relative hover:bg-main-light hover:text-dark text-dark-medium border-black border-opacity-30 border-b cursor-pointer transition hover:bg-blue hover:text-white">
                 <a class="text-lg font-light" href="#"><p class="p-4">Gourmet</p></a>
             </li>
 
-            <li class="relative hover:bg-main-light hover:text-dark text-dark-medium border-black border-opacity-30 border-b cursor-pointer transition">
+            <li class="relative hover:bg-main-light hover:text-dark text-dark-medium border-black border-opacity-30 border-b cursor-pointer transition hover:bg-hielow hover:text-white">
                 <a class="text-lg font-light" href="#"><p class="p-4">Contacto</p></a>
             </li>
 
-            <li class="relative hover:bg-main-light hover:text-dark text-dark-medium border-black border-opacity-30 border-b cursor-pointer transition">
+            <li class="relative hover:bg-main-light hover:text-dark text-dark-medium border-black border-opacity-30 border-b cursor-pointer transition hover:bg-salmon hover:text-white">
                 <a class="text-lg font-light" href="#"><p class="p-4">EN</p></a>
             </li>
         </ul>
