@@ -2,8 +2,8 @@
     
     <div class="sm:text-end sm:w-1/2 text-center"
     data-aos="fade-right">
-        <p class="font-bold text-3xl text-greenblack 2xl:text-5xl">Espacios únicos,</p>
-        <p class="text-2xl 2xl:text-4xl">Experiencias Personalizadas</p>
+        <p class="font-bold text-3xl text-greenblack 2xl:text-5xl overflow-hidden">Espacios únicos,</p>
+        <p class="text-2xl 2xl:text-4xl overflow-hidden">Experiencias Personalizadas</p>
     </div>
 
     <span class="w-[5px] h-auto bg-salmon"></span>
