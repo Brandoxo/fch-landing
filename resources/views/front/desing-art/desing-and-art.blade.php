@@ -9,6 +9,7 @@
       height: 100%;
       margin: 0;
       padding: 0;
+      
     }
 
   </style>
@@ -17,7 +18,7 @@
 @section('content')
 
 
-<main>
+<main class="bg-greenblack">
     
     @include('front.desing-art.sectiions.patricia-artist')
     @include('front.desing-art.sectiions.cindy-artist')

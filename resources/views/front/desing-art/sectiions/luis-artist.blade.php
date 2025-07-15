@@ -3,7 +3,7 @@
   <div class="p-8 flex flex-col sm:gap-8 gap-2">
     <div class="sm:p-16 w-full" data-aos="fade-down">
                <h6 class="text-aqua text-center  font-bold">Artista</h6>
-              <h1 class="font-bold text-3xl sm:text-5xl text-center">Luis Macías</h1>
+              <h1 class="font-bold text-3xl sm:text-5xl text-center text-white">Luis Macías</h1>
     </div>
 
     <div data-aos="fade-right">
@@ -24,7 +24,7 @@
      </div>
           <div class="mt-6" data-aos="zoom-in-left">
             <h6 class="text-aqua text-center font-bold mb-6">Acerca de Él</h6>
-            <p class="text-lg max-w-6xl">El trabajo artístico de Luis Macias es denominado como Arte Niño y el mismo artista es reconocido como un Traficante de Sueños. Las obras de Luis Macias son como el sonido de una Gretchs Chet Atkins, fuerte, contundente, por momentos frágil y sutil, con mucho Amor, Luna y Estrellas..</p>
+            <p class="text-lg max-w-6xl text-white">El trabajo artístico de Luis Macias es denominado como Arte Niño y el mismo artista es reconocido como un Traficante de Sueños. Las obras de Luis Macias son como el sonido de una Gretchs Chet Atkins, fuerte, contundente, por momentos frágil y sutil, con mucho Amor, Luna y Estrellas..</p>
           </div>
                         <div class="m-6 gap-4 grid grid-cols-2 lg:grid-cols-4 text-center">
                     <button class="w-full px-2 p-2 hover:bg-salmon  rounded-md text-white bg-blue text-center">+ Leer más</button>

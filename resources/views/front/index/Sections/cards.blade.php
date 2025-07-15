@@ -44,7 +44,7 @@
                 <!-- Precio -->
                 <div class="text-right">
                     <span class="text-sm font-medium">desde</span>
-                    <div class="text-3xl font-bold leading-tight">2.090 <span class="text-base">MXN</span></div>
+                    <div class="text-3xl font-bold leading-tight overflow-hidden">2.090 <span class="text-base">MXN</span></div>
                     <div class="text-xs">hab./noche</div>
                 </div>
             </div>
@@ -109,7 +109,7 @@
                 <!-- Precio -->
                 <div class="text-right">
                     <span class="text-sm font-medium">desde</span>
-                    <div class="text-3xl font-bold leading-tight">2.090 <span class="text-base">MXN</span></div>
+                    <div class="text-3xl font-bold leading-tight overflow-hidden">2.090 <span class="text-base">MXN</span></div>
                     <div class="text-xs">hab./noche</div>
                 </div>
             </div>
@@ -173,7 +173,7 @@
                 <!-- Precio -->
                 <div class="text-right">
                     <span class="text-sm font-medium">desde</span>
-                    <div class="text-3xl font-bold leading-tight">2.090 <span class="text-base">MXN</span></div>
+                    <div class="text-3xl font-bold leading-tight overflow-hidden">2.090 <span class="text-base">MXN</span></div>
                     <div class="text-xs">hab./noche</div>
                 </div>
             </div>

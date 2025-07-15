@@ -6,7 +6,7 @@
     <div class="absolute top-0 left-0 w-full h-full bg-black/30 bg-opacity-50 z-10"></div>
 
     <!-- Contenido centrado -->
-    <div class="absolute top-0 left-0 w-full h-full flex flex-col items-center justify-center z-20 text-white text-center px-4">
+    <div class="absolute top-0 left-0 w-full h-full flex flex-col items-center justify-center z-10 text-white text-center px-4">
         <img src="{{ asset('assets/img/extras/expedia.jpg') }}" class="w-24 h-24 rounded-full mb-4">
         <h2 class="text-xl font-semibold">Vania</h2>
         <h3 class="text-sm mb-2 italic text-white/80">Expedia</h3>
