@@ -26,8 +26,8 @@
             <ul class="text-white ml-auto md:flex gap-4 font-semibold 2xl:text-xl">
                 <li><a href="#"><p>Hoteles</p> <h1 class="active1 hidden pb-2 text-center relative lg:text-center after:content-[''] after:absolute after:buttom-0 lg-after-left-1/2 after:-translate-x-1/2 after:w-20 after:h-1 after:bg-salmon group-hover:block"></h1></li>
                 <li><a href="/desing-and-art"><p>Arte y Diseño</p> <h1 class="active2 hidden pb-2 text-center relative lg:text-center after:content-[''] after:absolute after:buttom-0 lg-after-left-1/2 after:-translate-x-1/2 after:w-20 after:h-1 after:bg-aqua group-hover:block"></h1></li>
-                <li><a href="#"><p>Gourmet</p> <h1 class="active3 hidden pb-2 text-center relative lg:text-center after:content-[''] after:absolute after:buttom-0 lg-after-left-1/2 after:-translate-x-1/2 after:w-20 after:h-1 after:bg-hielow group-hover:block"></h1></li>
-                <li><a href="#"><p>Contacto</p> <h1 class="active4 hidden pb-2 text-center relative lg:text-center after:content-[''] after:absolute after:buttom-0 lg-after-left-1/2 after:-translate-x-1/2 after:w-20 after:h-1 after:bg-blue group-hover:block"></h1></li>
+                <li><a href="/restaurant-ananas"><p>Gourmet</p> <h1 class="active3 hidden pb-2 text-center relative lg:text-center after:content-[''] after:absolute after:buttom-0 lg-after-left-1/2 after:-translate-x-1/2 after:w-20 after:h-1 after:bg-hielow group-hover:block"></h1></li>
+                <li><a href="/contact"><p>Contacto</p> <h1 class="active4 hidden pb-2 text-center relative lg:text-center after:content-[''] after:absolute after:buttom-0 lg-after-left-1/2 after:-translate-x-1/2 after:w-20 after:h-1 after:bg-blue group-hover:block"></h1></li>
                 <li><a href="#"><p>EN</p> <h1 class="active5 hidden pb-2 text-center relative lg:text-center after:content-[''] after:absolute after:buttom-0 lg-after-left-1/2 after:-translate-x-1/2 after:w-20 after:h-1 after:bg-salmon group-hover:block"></h1></li>
             </ul>
 

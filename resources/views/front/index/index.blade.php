@@ -63,6 +63,8 @@
         },
         spaceBetween: 30,
     });
+
+    
     </script>
 @endsection
 

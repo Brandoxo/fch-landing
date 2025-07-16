@@ -24,7 +24,7 @@
         <ul class="text-white font-bold flex flex-wrap gap-4 justify-center 2xl:gap-20 text-md">
             <li class="hover:text-black"><a href="{{route('home')}}">Inicio</a></li>
             <li class="hover:text-black"><a href="/desing-and-art">Arte y diseño</a></li>
-            <li class="hover:text-black"><a href="/">Gourmet</a></li>
+            <li class="hover:text-black"><a href="/restaurant-ananas">Gourmet</a></li>
             <li class="hover:text-black"><a href="/contact">Contacto</a></li>
             <li class="hover:text-black"><a href="#">EN</a></li>
         </ul>

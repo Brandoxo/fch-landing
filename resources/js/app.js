@@ -32,6 +32,8 @@ function userPosition()
         sidePosition2?.classList.remove('hidden');
     } else if (path === "/contact"){
         sidePosition4?.classList.remove("hidden");
+    } else if (path === "/restaurant-ananas" || "/restaurant/granada"){
+        sidePosition3?.classList.remove('hidden');
     }
 };
 

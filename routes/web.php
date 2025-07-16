@@ -7,8 +7,10 @@ Route::get('/', [FrontController::class, "index"])->name("home");
 
 Route::get('desing-and-art', [FrontController::class, "desingArt"])->name("desing-and-art");
 
-Route::get('restaurant-aranas', [FrontController::class, "resAranas"])->name('restaurant-aranas');
+Route::get('restaurant-ananas', [FrontController::class, "resAnanas"])->name('restaurant-ananas');
 Route::get('restaurant-granada', [FrontController::class, "resGranada"])->name('restaurant-granada');
+
+Route::get('contact', [FrontController::class, "contact"])->name('contact');
 
 Route::get('rengin-direct-booking', function(){
     return redirect()->route('contact');

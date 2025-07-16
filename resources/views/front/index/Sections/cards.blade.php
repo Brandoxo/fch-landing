@@ -7,7 +7,7 @@
 
      <article class="md:grid md:grid-cols-3 2xl:gap-0 gap-6 p-2 space-y-4">
       <div class="relative w-full max-w-sm mx-auto rounded-2xl overflow-hidden shadow-aqua h-[500px]"
-      data-aos="fade-right" data-aos-durat="2000">
+      data-aos="fade-right" data-aos-duration="2000">
         <!-- Imagen de fondo -->
         <img src="{{ asset('assets/img/buy-card/tar-provi.webp') }}" alt="Hotel FCH Providencia" class="absolute inset-0 w-full h-full object-cover contrast-100">
 
@@ -58,12 +58,12 @@
                 <svg class="w-4 h-4 text-white" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
                     <path stroke-linecap="round" stroke-linejoin="round" d="M8 7V3m8 4V3m-9 8h10m-9 4h9m-9 4h5m6 0V5a2 2 0 00-2-2H7a2 2 0 00-2 2v14a2 2 0 002 2h10a2 2 0 002-2z"/>
                 </svg>
-                Del <span class="font-medium">01/07/25</span> al <span class="font-medium">31/07/25</span>
+                Consulta<span class="font-medium">Nuestras</span> Fechas <span class="font-medium">Disponibles</span>
             </div>
 
             <!-- Botón -->
           <div class="w-full flex justify-end">
-            <a href="https://hotels.cloudbeds.com/reservation/K6bLIF" target="_blank" class="inline-block bg-salmon hover:bg-pink-600 text-white text-sm font-semibold px-4 py-2 rounded shadow w-fit">
+            <a href="https://hotels.cloudbeds.com/reservation/7DB90L" target="_blank" class="inline-block bg-salmon hover:bg-pink-600 text-white text-sm font-semibold px-4 py-2 rounded shadow w-fit">
                 Ver precios
             </a>
           </div>
@@ -72,7 +72,7 @@
     </div>
 
           <div class="relative w-full max-w-sm mx-auto rounded-2xl overflow-hidden shadow-salmon shadow-md h-[500px]"
-          data-aos="zoom-in" data-aos-durat="2000">
+          data-aos="zoom-in" data-aos-duration="2000">
         <!-- Imagen de fondo -->
         <img src="{{ asset('assets/img/buy-card/tar-expo.jpg') }}" alt="Hotel FCH Expo" class="absolute inset-0 w-full h-full object-cover contrast-100">
 
@@ -122,7 +122,7 @@
                 <svg class="w-4 h-4 text-white" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
                     <path stroke-linecap="round" stroke-linejoin="round" d="M8 7V3m8 4V3m-9 8h10m-9 4h9m-9 4h5m6 0V5a2 2 0 00-2-2H7a2 2 0 00-2 2v14a2 2 0 002 2h10a2 2 0 002-2z"/>
                 </svg>
-                Del <span class="font-medium">01/07/25</span> al <span class="font-medium">31/07/25</span>
+                Consulta<span class="font-medium">Nuestras</span> Fechas <span class="font-medium">Disponibles</span>
             </div>
 
 
@@ -136,7 +136,7 @@
     </div>
 
           <div class="relative w-full max-w-sm mx-auto rounded-2xl overflow-hidden shadow-aqua shadow-md h-[500px]"
-          data-aos="fade-left" data-aos-durat="2000">
+          data-aos="fade-left" data-aos-duration="2000">
         <!-- Imagen de fondo -->
         <img src="{{ asset('assets/img/buy-card/tar-minerva.webp') }}" alt="Hotel FCH Minerva" class="absolute inset-0 w-full h-full object-cover contrast-100">
 
@@ -186,12 +186,12 @@
                 <svg class="w-4 h-4 text-white" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
                     <path stroke-linecap="round" stroke-linejoin="round" d="M8 7V3m8 4V3m-9 8h10m-9 4h9m-9 4h5m6 0V5a2 2 0 00-2-2H7a2 2 0 00-2 2v14a2 2 0 002 2h10a2 2 0 002-2z"/>
                 </svg>
-                Del <span class="font-medium">01/07/25</span> al <span class="font-medium">31/07/25</span>
+                Consulta<span class="font-medium">Nuestras</span> Fechas <span class="font-medium">Disponibles</span>
             </div>
 
             <!-- Botón -->
           <div class="w-full flex justify-end">
-            <a href="#" target="_blank" class=" flex justify-end bg-salmon hover:bg-pink-600 text-white text-sm font-semibold px-4 py-2 rounded shadow w-fit">
+            <a href="https://hotels.cloudbeds.com/reservation/Nsh2ZS" target="_blank" class=" flex justify-end bg-salmon hover:bg-pink-600 text-white text-sm font-semibold px-4 py-2 rounded shadow w-fit">
                 Ver precios
             </a>
           </div>
