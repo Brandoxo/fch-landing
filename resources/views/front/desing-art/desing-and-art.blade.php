@@ -36,7 +36,7 @@
     
         console.log("Hey")
     
-    var swiper = new Swiper("#container", {
+    var Swiper = new Swiper("#container", {
       spaceBetween: 30,
       centeredSlides: true,
       effect: "fade",

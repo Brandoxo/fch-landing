@@ -27,13 +27,21 @@
             <p class="text-lg max-w-6xl text-white">Su filosofía es crear experiencias únicas: Dar soluciones creativas a las necesidades que presenta cada proyecto, con el objetivo de sorprender al cliente y extender sus expectativas. Su experiencia y conocimiento se aplica a todo tipo de diseño y les permite abordar cada proyecto de manera dramática, creativa y conceptual. Es por eso que se involucra durante todo el proceso con su cliente, ya que sus necesidades y personalidad son el motor de nuestras ideas.
 Su red de profesionales incluye constructores, artistas y artesanos que comparten nuestra visión para lograr el mejor diseño posible, un Diseño con alma propia.</p>
           </div>
-                       <div class="m-6 gap-4 grid grid-cols-2 lg:grid-cols-4 text-center">
-                    <button class="w-full px-2 p-2 hover:bg-salmon  rounded-md text-white bg-blue text-center">+ Leer más</button>
-                    <button class="w-full px-2 p-2 hover:bg-salmon  rounded-md text-white bg-blue flex place-content-center gap-2"><img class="w-6" src="{{asset('assets/icons/social-3.svg')}}">Facebook</button>
-                    <button class="w-full px-2 p-2 hover:bg-salmon  rounded-md text-white bg-blue flex place-content-center gap-2"><img class="w-6" src="{{asset('assets/icons/social-2.svg')}}">Instagram</button>
-                    <button class="w-full px-2 p-2 hover:bg-salmon  rounded-md text-white bg-blue flex place-content-center gap-2"><img class="w-6" src="{{asset('assets/icons/social-1.svg')}}">Twitter</button>
+                        <div class="m-6 gap-4 grid grid-cols-2 lg:grid-cols-4 text-center">
+                <a href="http://www.montaudoninteriorismo.com/">
+                    <button class="cursor-pointer w-full px-2 p-2 hover:bg-salmon  rounded-md text-white bg-blue text-center">+ Leer más</button>
+                </a>
+                <a href="https://www.facebook.com/montaudoninteriorismo/">
+                    <button class="cursor-pointer w-full px-2 p-2 hover:bg-salmon  rounded-md text-white bg-blue flex place-content-center gap-2"><img class="w-6" src="{{asset('assets/icons/social-3.svg')}}">Facebook</button>
+                </a>
+                <a href="https://www.instagram.com/montaudon.interiorismo/">
+                    <button class="cursor-pointer w-full px-2 p-2 hover:bg-salmon  rounded-md text-white bg-blue flex place-content-center gap-2"><img class="w-6" src="{{asset('assets/icons/social-2.svg')}}">Instagram</button>
+                </a>
+                <a href="https://fch-hotels.com/arteydiseno">
+                    <button class="cursor-pointer w-full px-2 p-2 hover:bg-salmon  rounded-md text-white bg-blue flex place-content-center gap-2"><img class="w-6" src="{{asset('assets/icons/social-1.svg')}}">Twitter</button>
+                </a>
     
-            </div> 
+            </div>
 
      </div>
      
