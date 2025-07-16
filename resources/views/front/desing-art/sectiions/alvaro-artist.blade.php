@@ -26,6 +26,8 @@
             <h6 class="text-blue text-center font-bold mb-6">Acerca de Él</h6>
             <p class="text-lg max-w-6xl text-white">Artista multidisciplinario mexicano que por medio de huellas dactilares nos muestra un profundo mensaje simbólico de código de identidad que nos recuerda que somos únicos e irrepetibles. Las huellas como elemento morfológico y metafórico han sido el medio por el que este artista ha establecido una plataforma personal para desarrollar la que llama “huellisima”, donde las huellas plasmadas generan un código único e irrepetible que manifiesta como somos.
 Para Álvaro Cuevas, la vida es una fuente de inspiración en la que consciente o inconscientemente <strong>TODOS DEJAMOS HUELLA</strong>.</p>
+          </div>
+          
            <div class="m-6 gap-4 grid grid-cols-2 lg:grid-cols-4 text-center">
                 <a href="http://www.alvarocuevas.com/">
                     <button class="cursor-pointer w-full px-2 p-2 hover:bg-salmon  rounded-md text-white bg-blue text-center">+ Leer más</button>
@@ -41,8 +43,6 @@ Para Álvaro Cuevas, la vida es una fuente de inspiración en la que consciente 
                 </a>
     
             </div>
-
-     </div>
      
 </section>
    

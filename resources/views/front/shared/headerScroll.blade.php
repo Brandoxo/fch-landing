@@ -1,4 +1,4 @@
-<nav class="z-20 to-salmon/50 from-hielow/80 bg-linear-to-l top-0 left-0 w-full transition-all duration-800 fixed opacity-0" id="scrollHeader">
+<nav class="z-30 to-salmon/50 from-hielow/80 bg-linear-to-l top-0 left-0 w-full transition-all duration-800 fixed opacity-0" id="scrollHeader">
 
     <!-- {{-- Menú desktop --}} -->
 

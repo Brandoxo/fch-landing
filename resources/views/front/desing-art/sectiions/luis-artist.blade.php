@@ -25,6 +25,7 @@
           <div class="mt-6" data-aos="zoom-in-left">
             <h6 class="text-aqua text-center font-bold mb-6">Acerca de Él</h6>
             <p class="text-lg max-w-6xl text-white">El trabajo artístico de Luis Macias es denominado como Arte Niño y el mismo artista es reconocido como un Traficante de Sueños. Las obras de Luis Macias son como el sonido de una Gretchs Chet Atkins, fuerte, contundente, por momentos frágil y sutil, con mucho Amor, Luna y Estrellas..</p>
+          </div>
            <div class="m-6 gap-4 grid grid-cols-2 lg:grid-cols-4 text-center">
                 <a href="http://luismacias.mx/">
                     <button class="cursor-pointer w-full px-2 p-2 hover:bg-salmon  rounded-md text-white bg-blue text-center">+ Leer más</button>
@@ -40,8 +41,6 @@
                 </a>
     
             </div>
-
-     </div>
      
 </section>
    

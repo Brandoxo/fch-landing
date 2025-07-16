@@ -18,8 +18,8 @@
         </div>
     </div>
 </nav> --> 
-<nav class="z-20 bg-transparent top-0 left-0 w-full transition-all duration-300 absolute" id="mainHeader">
-    <div class="md:flex hidden justify-between items-center px-8 md:px-20 lg:px-40 2xl:px-60 py-2 md:py-1 mx-auto z-20">
+<nav class="z-30 bg-transparent top-0 left-0 w-full transition-all duration-300 absolute" id="mainHeader">
+    <div class="md:flex hidden justify-between items-center px-8 md:px-20 lg:px-40 2xl:px-60 py-2 md:py-1 mx-auto z-30">
             <a class="" href="{{ route('home') }}">
               <img class="h-14" src="{{asset('assets/img/logos/logo-hor.png')}}" alt="Logo Hotel FCH Hotel Navbar">
             </a>

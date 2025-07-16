@@ -24,11 +24,11 @@
             </li>
 
             <li class="relative hover:bg-main-light hover:text-dark text-dark-medium border-black border-opacity-30 border-b cursor-pointer transition hover:bg-blue hover:text-white">
-                <a class="text-lg font-light" href="#"><p class="p-4">Gourmet</p></a>
+                <a class="text-lg font-light" href="/restaurant-ananas"><p class="p-4">Gourmet</p></a>
             </li>
 
             <li class="relative hover:bg-main-light hover:text-dark text-dark-medium border-black border-opacity-30 border-b cursor-pointer transition hover:bg-hielow hover:text-white">
-                <a class="text-lg font-light" href="#"><p class="p-4">Contacto</p></a>
+                <a class="text-lg font-light" href="/contact"><p class="p-4">Contacto</p></a>
             </li>
 
             <li class="relative hover:bg-main-light hover:text-dark text-dark-medium border-black border-opacity-30 border-b cursor-pointer transition hover:bg-salmon hover:text-white">

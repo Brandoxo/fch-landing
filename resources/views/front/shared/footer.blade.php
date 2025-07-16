@@ -1,6 +1,6 @@
 <footer>
 
-    <div class=" bg-greenblack  relative py-16 px-4 flex md:flex-row md:px-6  flex-col items-center md:justify-center gap-30">
+    <div class=" bg-greenblack  relative py-16 px-4 flex md:flex-row md:px-6  flex-col items-center md:justify-center gap-30 z-30">
 
         <div>
             <img class="w-40" src="{{ asset('assets/img/logos/logo-ver.png') }}" alt="Logo Country Hotel">
