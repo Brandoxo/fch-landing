@@ -12,7 +12,7 @@
                  @method('POST')
     
         <input 
-            class="w-full p-4 bg-carnita border border-salmon rounded-lg text-black placeholder-gray-800" 
+            class="w-full p-4 bg-carnita border border-salmon rounded-lg text-white placeholder-gray-800" 
             type="text" 
             name="name"
             placeholder="Nombre(s)" 
@@ -22,7 +22,7 @@
 
     
         <input 
-            class="w-full md:w-[48%] p-4 bg-carnita border border-salmon rounded-lg text-black placeholder-gray-800" 
+            class="w-full md:w-[48%] p-4 bg-carnita border border-salmon rounded-lg text-white placeholder-gray-800" 
             type="text" 
             name="city"
             placeholder="Ciudad de residencia" 
@@ -32,7 +32,7 @@
 
     
         <input 
-            class="w-full md:w-[48%] p-4 bg-carnita border border-salmon rounded-lg text-black placeholder-gray-800" 
+            class="w-full md:w-[48%] p-4 bg-carnita border border-salmon rounded-lg text-white placeholder-gray-800" 
             type="text" 
             name="cp"
             placeholder="Código Postal" 
@@ -42,7 +42,7 @@
 
     
         <input 
-            class="w-full p-4 bg-carnita border border-salmon rounded-lg text-black placeholder-gray-800" 
+            class="w-full p-4 bg-carnita border border-salmon rounded-lg text-white placeholder-gray-800" 
             type="tel" 
             name="phone"
             placeholder="Número de teléfono" 
@@ -52,7 +52,7 @@
 
     
         <input 
-            class="w-full p-4 bg-carnita border border-salmon rounded-lg text-black placeholder-gray-800" 
+            class="w-full p-4 bg-carnita border border-salmon rounded-lg text-white placeholder-gray-800" 
             type="email" 
             name="email"
             placeholder="Correo Electrónico" 
@@ -62,10 +62,10 @@
 
     
         <div class="w-full">
-            <label class="text-black font-semibold text-lg mb-2 block" for="asunto">Tipo de solicitud</label>
+            <label class="text-white font-semibold text-lg mb-2 block" for="asunto">Tipo de solicitud</label>
             <select
             id="subject"
-            class="w-full px-4 py-3 border border-salmon bg-carnita rounded-lg text-black shadow-sm focus:bg-white focus:text-black"
+            class="w-full px-4 py-3 border border-salmon bg-carnita rounded-lg text-white shadow-sm focus:bg-white focus:text-black"
             required
             value="{{old('subject')}}"
             >
@@ -80,16 +80,15 @@
 
     
         <div class="w-full">
-            <label class="text-black font-semibold text-lg mb-2 block" for="mensaje">Mensaje</label>
+            <label class="text-white font-semibold text-lg mb-2 block" for="mensaje">Mensaje</label>
             <textarea
             id="mensaje"
             name="message"
             rows="5"
-            class="w-full p-4 bg-carnita border border-salmon rounded-lg text-black placeholder-gray-800 resize-none"
+            class="w-full p-4 bg-carnita border border-salmon rounded-lg text-white placeholder-gray-800 resize-none"
             placeholder="Escribe aquí tu mensaje..."
             required
-            value="{{old('message')}}"
-            ></textarea>
+            >value="{{old('message')}}"</textarea>
         </div>
 
     
@@ -119,7 +118,7 @@
                 </div>
                 <div class="mx-auto text-center place-content-center">
                 <h2 class="font-bold text-lg">Teléfono</h2>
-                <a href="tel:+523336232000"><p class="text-blue-900 underline">
+                <a><p>
                + 52 (33) 3623 2000</p></a>
                 </div>
             </div>
@@ -138,9 +137,9 @@
                 <div class="flex">
                     <img class="w-10" src=" {{asset ('assets/icons/contact/socials.svg') }}">
                 </div>
-                <div class="mx-auto text-center place-content-center w-fit">
-                    <h2 class="font-bold text-lg">Desarrollo Web</h2>
-                    <a href="mailto:desarrollo.software@pcbtroniks.com" class="text-blue-900 underline">Email</a>
+                <div class="mx-auto text-center place-content-center">
+                    <h2 class="font-bold text-lg">Correo Electrónico</h2>
+                    <p>3321190384</p>
                 </div>
             </div>
     </div>

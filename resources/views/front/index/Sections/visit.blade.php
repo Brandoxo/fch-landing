@@ -46,9 +46,9 @@
             <div class="text-center">
             <h1 class="font-bold text-3xl text-greenblack text-center overflow-hidden" data-aos="fade-down">LLÁMENOS</h1>
             <div class="2xl:w-70 h-1 bg-hielow flex m-auto mt-3"></div>
-            <a><p>+ 52 (33) 3623 2000
+            <a href="tel:+5233336232000"><p class="text-blue-900 underline">+ 52 (33) 3623 2000
                 </p></a>
-                <a><p>
+                <a href="tel:+523336232000"><p class="text-blue-900 underline">
                + 52 (33) 3623 2000</p></a>
              </div>
         </div>

@@ -11,6 +11,9 @@ Route::get('restaurant-ananas', [FrontController::class, "resAnanas"])->name('re
 Route::get('restaurant-granada', [FrontController::class, "resGranada"])->name('restaurant-granada');
 
 Route::get('contact', [FrontController::class, "contact"])->name('contact');
+Route::get('event-contact', [FrontController::class, 'eventContact'])->name('event.contact');
+
+Route::post('event-contact', [ContactController::class, 'sendEventContactEmail'])->name('event.contact.send');
 
 Route::get('rengin-direct-booking', function(){
     return redirect()->route('contact');
