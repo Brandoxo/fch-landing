@@ -15,16 +15,27 @@
                 <a class="text-lg font-light" href="{{route('home')}}"><p class="p-4">Inicio</p></a>
             </li>
 
+
             <li class="relative hover:bg-main-light hover:text-dark text-dark-medium border-black border-opacity-30 border-b cursor-pointer transition hover:bg-aqua hover:text-white">
-                <a class="text-lg font-light" href="#"><p class="p-4">Hoteles</p></a>
+                <button class="text-lg font-light w-full text-left p-4 toggle-submenu" data-target="submenu-hoteles">Hoteles</button>
+                <ul id="submenu-hoteles" class="hidden ml-4 bg-hielow text-white font-bold">
+                    <li><a href="http://fch-provi.fchminerva.com" class="block p-4 hover:bg-gray-200">FCH Providencia</a></li>
+                    <li><a href="http://fch-expo.fchminerva.com/" class="block p-4 hover:bg-gray-200">FCH Expo</a></li>
+                    <li><a href="http://fchminerva.com" class="block p-4 hover:bg-gray-200">FCH Minerva</a></li>
+                </ul>
             </li>
 
             <li class="relative hover:bg-main-light hover:text-dark text-dark-medium border-black border-opacity-30 border-b cursor-pointer transition hover:bg-salmon hover:text-white">
                 <a class="text-lg font-light" href="/desing-and-art"><p class="p-4">Arte y diseño</p></a>
             </li>
 
-            <li class="relative hover:bg-main-light hover:text-dark text-dark-medium border-black border-opacity-30 border-b cursor-pointer transition hover:bg-blue hover:text-white">
-                <a class="text-lg font-light" href="/restaurant-ananas"><p class="p-4">Gourmet</p></a>
+
+            <li class="relative hover:bg-main-light hover:text-dark text-dark-medium border-black border-opacity-30 border-b cursor-pointer transition hover:bg-blue hover:text-white" id="liGourmet">
+                <button class="text-lg font-light w-full text-left p-4 toggle-submenu" data-target="submenu-gourmet">Gourmet</button>
+                <ul id="submenu-gourmet" class="hidden ml-4 bg-salmon text-white font-bold">
+                    <li><a href="/restaurant-ananas" class="block p-4 hover:bg-pink-600 ">Restaurante Ananás</a></li>
+                    <li><a href="/restaurant-granada" class="block p-4 hover:bg-pink-600 ">Restaurante Granada</a></li>
+                </ul>
             </li>
 
             <li class="relative hover:bg-main-light hover:text-dark text-dark-medium border-black border-opacity-30 border-b cursor-pointer transition hover:bg-hielow hover:text-white">

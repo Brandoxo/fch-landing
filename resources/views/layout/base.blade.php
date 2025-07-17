@@ -33,4 +33,18 @@
         @vite('resources/js/app.js')
         @yield('js')
     </body>
+
+    <script>
+        document.querySelectorAll('.toggle-submenu').forEach(button => {
+    button.addEventListener('click', () => {
+        const targetId = button.getAttribute('data-target');
+        const submenu = document.getElementById(targetId);
+
+        if (submenu) {
+            submenu.classList.toggle('hidden');
+        }
+    });
+});
+
+    </script>
 </html>
