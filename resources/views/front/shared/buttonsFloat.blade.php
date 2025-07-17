@@ -35,7 +35,7 @@
 
   
   > <div> 
-    <a target="_blank" href="https://wa.me/3333113958?text=Hola%20me%20gustaría%20saber%20más%20sobre%20el%20hotel" class="bg-salmon">
+    <a target="_blank" href="tel:333623200" class="bg-salmon">
                 <img class="w-8 sm:w-10" src="{{ asset('assets/icons/socials/WhatsApp Inc.svg') }}" alt="menu">
             </a>
     </div>
