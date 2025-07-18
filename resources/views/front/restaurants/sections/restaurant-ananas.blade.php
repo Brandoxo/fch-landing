@@ -11,7 +11,7 @@
                      son los elementos que 
                     distinguen nuestro restaurant.</p>
             </div>
-            <a target="_blanck" href="{{ route('rengin.direct-booking') }}">
+                        <a target="_blanck" href="{{ asset('restaurante/menu_ananas.pdf') }}">
                     <button class="cta-main  bg-salmon p-2 px-4 mt-6">
                         <span class="text-xl p-2 text-center">Ver menú</span>
                     </button>
@@ -30,7 +30,7 @@
                       nuestra cultura.</p>
                       
             </div>
-            <a target="_blanck" href="{{ route('rengin.direct-booking') }}">
+                        <a target="_blanck" href="{{ asset('restaurante/menu_ananas.pdf') }}">
                     <button class="cta-main  bg-salmon p-2 px-4 mt-6">
                         <span class="text-xl p-2 text-center">Ver menú</span>
                     </button>
@@ -48,7 +48,7 @@
                       comer o cenar.</p>
                        
             </div>
-            <a target="_blank" href="https://fch-hotels.com/wp-content/uploads/2018/10/MENU_ANANAS.pdf">
+            <a target="_blanck" href="{{ asset('restaurante/menu_ananas.pdf') }}">
                     <button class="cta-main  bg-salmon p-2 px-4 mt-6">
                         <span class="text-xl p-2 text-center">Ver menú</span>
                     </button>

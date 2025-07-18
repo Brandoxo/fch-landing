@@ -15,7 +15,7 @@
                   <h1 class="text-5xl font-bold">GRANADA</h1>
                   <p class="w-1/3 text-3xl mt-6">Combinamos calidad, estilo y platillos deliciosos para traerte una experiencia gastronómica placentera y a tu medida.</p>
             </div>
-            <a target="_blanck" href="{{ route('rengin.direct-booking') }}">
+            <a target="_blanck" href="{{ asset('restaurante/menu_granada.pdf') }}">
                     <button class="cta-main  bg-salmon p-2 px-4 mt-6">
                         <span class="text-xl p-2 text-center">Ver menú</span>
                     </button>
