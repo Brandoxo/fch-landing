@@ -1,6 +1,6 @@
 <html>
     <head>
-      <title>Nuevo correo de contacto desde la web {{ config('app.name') }}</title>
+      <title>Nuevo correo de contacto desde la web FCHMinerva</title>
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width">
       <style type="text/css">
@@ -122,11 +122,11 @@
                     <td style="padding: 20px 0px 30px 0px;" class="logo">
                       <table border="0" cellpadding="0" cellspacing="0" width="100%">
                         <tr>
-                          <td bgcolor="#ffffff" width="100" align="left"><a href="{{ config('app.url') }}" target="_blank"><img alt="Logo" src="{{ asset('assets/logo.png') }}" width="50" height="78" style="display: block; font-family: Helvetica, Arial, sans-serif; color: #666666; font-size: 16px;" border="0"></a></td>
+                          <td bgcolor="#ffffff" width="100" align="left"><a href="https://fch-hotels.com" target="_blank"><img alt="Logo" src="https://fch-hotels.com/assets/img/logos/logo.png" width="50" height="78" style="display: block; font-family: Helvetica, Arial, sans-serif; color: #666666; font-size: 16px;" border="0"></a></td>
                           <td bgcolor="#ffffff" width="400" align="right" class="mobile-hide">
                             <table border="0" cellpadding="0" cellspacing="0">
                               <tr>
-                                <td align="right" style="padding: 0 0 5px 0; font-size: 14px; font-family: Arial, sans-serif; color: #666666; text-decoration: none;"><span style="color: #666666; text-decoration: none;">Hotel JA Centro<br>hoteljacentro.com</span></td>
+                                <td align="right" style="padding: 0 0 5px 0; font-size: 14px; font-family: Arial, sans-serif; color: #666666; text-decoration: none;"><span style="color: #666666; text-decoration: none;">FCH HOTELS<br>www.fch-hotels.com</span></td>
                               </tr>
                             </table>
                           </td>
@@ -158,7 +158,7 @@
                                   <table width="100%" border="0" cellspacing="0" cellpadding="0">
                                     <tr>
                                       <td align="center">
-                                        <a href="{{ config('app.url') }}" target="_blank"><img src="{{ asset('assets/logo.png') }}" width="200" border="0" alt="Logotipo" style="display: block; padding: 0; color: #666666; text-decoration: none; font-family: Helvetica, arial, sans-serif; font-size: 16px; width: 200px;" class="img-max"></a>
+                                        <a href="https://fch-hotels.com" target="_blank"><img src="https://fch-hotels.com/assets/img/logos/logo.png" width="200" border="0" alt="Logotipo" style="display: block; padding: 0; color: #666666; text-decoration: none; font-family: Helvetica, arial, sans-serif; font-size: 16px; width: 200px;" class="img-max"></a>
                                       </td>
                                     </tr>
                                   </table>
@@ -175,9 +175,6 @@
                             <tr>
                               <td align="center" style="font-size: 25px; font-family: Helvetica, Arial, sans-serif; color: #333333; padding-top: 30px;" class="padding-copy">¡Correo de {{$data['name']}}!</td>
                             </tr>
-                            <tr>
-                              <td align="center" style="font-size: 20px; font-family: Helvetica, Arial, sans-serif; color: #333333; padding-top: 30px;" class="padding-copy">Has recibido un nuevo correo desde la web {{ config('app.url') }}</td>
-                            </tr>
                           </table>
                         </td>
                       </tr>
@@ -188,10 +185,31 @@
                           <table width="100%" border="0" cellspacing="0" cellpadding="0" class="mobile-button-container">
   
                             <tr style="height: 32px;">
-                              <th align="left" style="padding: 20px 0 0 0; font-size: 16px; line-height: 25px; font-family: Helvetica, Arial, sans-serif; color: #666666;">Correo del solicitante:</th>
-                              <td align="left" style="padding: 20px 0 0 0; font-size: 16px; line-height: 25px; font-family: Helvetica, Arial, sans-serif; color: #000000;">{{$data['email']}}</td>
+                                <th align="left" style="padding: 20px 0 0 0; font-size: 16px; line-height: 25px; font-family: Helvetica, Arial, sans-serif; color: #666666;">Solicitante:</th>
+                                <td align="left" style="padding: 20px 0 0 0; font-size: 16px; line-height: 25px; font-family: Helvetica, Arial, sans-serif; color: #000000;">{{$data['name']}}</td>
+                            </tr>
+
+                            <tr style="height: 32px;">
+                                <th align="left" style="padding: 20px 0 0 0; font-size: 16px; line-height: 25px; font-family: Helvetica, Arial, sans-serif; color: #666666;">Ciudad del solicitante:</th>
+                                <td align="left" style="padding: 20px 0 0 0; font-size: 16px; line-height: 25px; font-family: Helvetica, Arial, sans-serif; color: #000000;">{{$data['city']}}</td>
+                            </tr>
+
+                            <tr style="height: 32px;">
+                                <th align="left" style="padding: 20px 0 0 0; font-size: 16px; line-height: 25px; font-family: Helvetica, Arial, sans-serif; color: #666666;">Código Postal del solicitante:</th>
+                                <td align="left" style="padding: 20px 0 0 0; font-size: 16px; line-height: 25px; font-family: Helvetica, Arial, sans-serif; color: #000000;">{{$data['cp']}}</td>
+                            </tr>
+
+  
+                            <tr style="height: 32px;">
+                                <th align="left" style="padding: 20px 0 0 0; font-size: 16px; line-height: 25px; font-family: Helvetica, Arial, sans-serif; color: #666666;">Correo del solicitante:</th>
+                                <td align="left" style="padding: 20px 0 0 0; font-size: 16px; line-height: 25px; font-family: Helvetica, Arial, sans-serif; color: #000000;">{{$data['email']}}</td>
                             </tr>
   
+                            <tr style="height: 32px;">
+                                <th align="left" style="padding: 20px 0 0 0; font-size: 16px; line-height: 25px; font-family: Helvetica, Arial, sans-serif; color: #666666;">Telefono del solicitante:</th>
+                                <td align="left" style="padding: 20px 0 0 0; font-size: 16px; line-height: 25px; font-family: Helvetica, Arial, sans-serif; color: #000000;">{{$data['phone']}}</td>
+                            </tr>
+
                             <tr style="height: 32px;">
                               <th align="left" style="padding: 20px 0 0 0; font-size: 16px; line-height: 25px; font-family: Helvetica, Arial, sans-serif; color: #666666;">Asunto:</th>
                               <td align="left" style="padding: 20px 0 0 0; font-size: 16px; line-height: 25px; font-family: Helvetica, Arial, sans-serif; color: #000000;">{{$data['subject']}}</td>
@@ -199,9 +217,17 @@
   
                             <tr style="height: 32px;">
                               <th align="left" style="padding: 20px 0 0 0; font-size: 16px; line-height: 25px; font-family: Helvetica, Arial, sans-serif; color: #666666;">Mensaje:</th>
-                              <td align="left" style="padding: 20px 0 0 0; font-size: 16px; line-height: 25px; font-family: Helvetica, Arial, sans-serif; color: #000000;">{{$data['message']}}</td>
+                              <td align="left" style="padding: 20px 0 0 0; font-size: 16px; line-height: 25px; font-family: Helvetica, Arial, sans-serif; color: #000000;">{{$data['message'] ?? 'No se incluyo ningun mensaje'}}</td>
                             </tr>
                           </table>
+                        </td>
+                      </tr>
+  
+  
+  
+                      <tr>
+                        <td>
+  
                         </td>
                       </tr>
                     </td>
@@ -228,11 +254,10 @@
                 <table width="500" border="0" cellspacing="0" cellpadding="0" align="center" class="responsive-table">
                   <tr>
                     <td align="center" valign="middle" style="font-size: 12px; line-height: 18px; font-family: Helvetica, Arial, sans-serif; color:#666666;">
-                      <span class="appleFooter" style="color:#666666;">
-                        Avenida Miguel Hidalgo y Costilla #656, C.P. 44100 Guadalajara, Jalisco, México
-                      </span>
-                      <br>
-                      <a class="original-only" style="color: #666666; text-decoration: none;">Privacidad</a><span class="original-only" style="font-family: Arial, sans-serif; font-size: 12px; color: #444444;">&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;</span><a style="color: #666666; text-decoration: none;">Este mail es de caracter confidencial</a>
+                      <span class="appleFooter" style="color:#666666;">Pedro Moreno 726
+                      Centro Histórico
+                      C.P. 44100
+                      Guadalajara Jalisco, México.</span><br><a class="original-only" style="color: #666666; text-decoration: none;">Privacidad</a><span class="original-only" style="font-family: Arial, sans-serif; font-size: 12px; color: #444444;">&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;</span><a style="color: #666666; text-decoration: none;">Este mail es de caracter confidencial</a>
                     </td>
                   </tr>
                 </table>

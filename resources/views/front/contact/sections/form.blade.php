@@ -7,7 +7,7 @@
 
         </div>
 
-                <form class="flex flex-wrap gap-6 p-6 rounded-lg shadow-lg" action="{{route('event.contact.send')}}" method="POST">
+                <form class="flex flex-wrap gap-6 p-6 rounded-lg shadow-lg" action="/contact/send" method="POST">
                  @csrf
                  @method('POST')
     
@@ -62,9 +62,10 @@
 
     
         <div class="w-full">
-            <label class="text-black font-semibold text-lg mb-2 block" for="asunto">Tipo de solicitud</label>
+            <label class="text-white font-semibold text-lg mb-2 block" for="asunto">Tipo de solicitud</label>
             <select
             id="subject"
+            name="subject"
             class="w-full px-4 py-3 border border-salmon bg-carnita rounded-lg text-black shadow-sm focus:bg-white focus:text-black"
             required
             value="{{old('subject')}}"
@@ -80,7 +81,7 @@
 
     
         <div class="w-full">
-            <label class="text-black font-semibold text-lg mb-2 block" for="mensaje">Mensaje</label>
+            <label class="text-white font-semibold text-lg mb-2 block" for="mensaje">Mensaje</label>
             <textarea
             id="mensaje"
             name="message"
@@ -171,7 +172,7 @@
 
 Swal.fire(
   '¡Gracias!',
-  'Se ha realizado correctamente tu solicitud!',
+  'Nos pondremos en contacto contigo a la brevedad.',
   'success'
 )
     
