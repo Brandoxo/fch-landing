@@ -36,7 +36,7 @@
         <!-- Artículo 3 -->
         <article class="p-2 relative">
             <div class="w-full h-64 overflow-hidden"  data-aos="fade-left">
-                <a href="http://provi.fch-hotels.com" class="opacity-80 transition-all duration-500 ease-in-out hover:opacity-100 hover:contrast-125 hover:cursor-pointer">
+                <a href="https://fch-provi.fchminerva.com/" class="opacity-80 transition-all duration-500 ease-in-out hover:opacity-100 hover:contrast-125 hover:cursor-pointer">
                     <img class="object-cover w-full h-full" src="{{ asset('assets/img/more-card/more-provi.webp') }}" alt="FCH Providencia">
                 </a>
                </div>
