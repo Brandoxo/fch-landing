@@ -19,7 +19,7 @@
             <li class="relative hover:bg-main-light hover:text-dark text-dark-medium border-black border-opacity-30 border-b cursor-pointer transition hover:bg-aqua hover:text-white">
                 <button class="text-lg font-light w-full text-left p-4 toggle-submenu" data-target="submenu-hoteles">Hoteles</button>
                 <ul id="submenu-hoteles" class="hidden ml-4 bg-hielow text-white font-bold">
-                    <li><a href="http://fch-provi.fchminerva.com" class="block p-4 hover:bg-gray-200">FCH Providencia</a></li>
+                    <li><a href="https://provi.fch-hotels.com/" class="block p-4 hover:bg-gray-200">FCH Providencia</a></li>
                     <li><a href="http://fch-expo.fchminerva.com/" class="block p-4 hover:bg-gray-200">FCH Expo</a></li>
                     <li><a href="http://fchminerva.com" class="block p-4 hover:bg-gray-200">FCH Minerva</a></li>
                 </ul>
